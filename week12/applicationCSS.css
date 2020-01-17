@@ -1,0 +1,20 @@
+@font-face {
+    font-family: EdwardScript;
+    src: url('C:\Users\Maria\Desktop\pages\week12\Sample Logo.png');
+}
+
+body {
+    color: #0094ff;
+}
+
+    body p:first-letter {
+        font-family: EdwardScript;
+        font-size: 1cm;
+    }
+    body p::first-line {
+        font-weight:bold;
+    }
+
+p {
+    font-family: Consolas;
+}
